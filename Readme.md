@@ -1,3 +1,19 @@
+#List Of Projects
+## ```1 URL Shortener```
+
+## ```2 Text Encryption and Decryption```
+
+## ```3 Password Manage```
+
+## ```4 Data Visualization```
+
+## ```5 Currency Converter```
+
+## ```6 Password Strength Checker```
+
+## ```7 To-do List```
+
+ 
 # ```#1 URL Shortener```
 A command-line tool that shortens URLs to make them more manageable and easy to share. Users can input a long URL, and the program generates a short URL that redirects to the original URL.
 
@@ -115,15 +131,20 @@ print(decrypted_data)
 
 
 # ```#3 Password Manager```
+
 A command-line tool that securely stores and manages user passwords. Users can add, delete, and retrieve passwords, and the program encrypts and decrypts the passwords using a chosen encryption algorithm.
 
 The program provides a simple menu for the user to choose from:
 
 ###```➡ Add Password```
+
 ###```➡ View Database```
+
 ###```➡ Search by Account Name```
 
+
 ##```➡ Add Password```
+
 This option allows the user to enter an account name and password, which are then saved to the text file. The program will append the new account name and password to the end of the file.
 
 ##```➡ View Database```
