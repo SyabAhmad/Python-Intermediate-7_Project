@@ -117,6 +117,32 @@ print(decrypted_data)
 # ```#3 Password Manager```
 A command-line tool that securely stores and manages user passwords. Users can add, delete, and retrieve passwords, and the program encrypts and decrypts the passwords using a chosen encryption algorithm.
 
+The program provides a simple menu for the user to choose from:
+
+###```➡ Add Password```
+###```➡ View Database```
+###```➡ Search by Account Name```
+
+##```➡ Add Password```
+This option allows the user to enter an account name and password, which are then saved to the text file. The program will append the new account name and password to the end of the file.
+
+##```➡ View Database```
+
+This option allows the user to view all the account names and passwords saved in the text file.
+
+##```➡ Search by Account Name```
+
+This option allows the user to search for a specific account by name. If the account is found, the program will display the account name and password. If the account is not found, the program will display a message indicating that the account does not exist.
+
+The program uses exception handling to catch any errors that may occur during file input/output operations.
+
+To run this program, the user needs to have Python installed on their computer. The required packages for this program are already included in Python standard library, so no additional package installation is required.
+
+
+
+
+
+
 # ```#4 Data Visualization```
 A command-line tool that visualizes data in a variety of formats, such as bar charts, line charts, or scatter plots. Users can input data in a CSV or Excel file, and the program generates the corresponding visualization.
 
