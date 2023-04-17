@@ -32,6 +32,85 @@ Overall, pyshorteners is a useful Python library for working with URLs and can s
 # ```#2 Text Encryption and Decryption```
 A command-line tool that allows users to encrypt and decrypt text messages using a variety of encryption algorithms, such as AES, RSA, or Blowfish. Users can input a message and a key, and the program encrypts or decrypts the message using the chosen algorithm.
 
+This project aims to provide a simple implementation of encryption and decryption in Python using the hashlib and cryptography libraries.
+It allows you to encrypt and decrypt data using various encryption algorithms and hash functions.
+
+# ```Requirements```
+To run this project, you will need the following Python packages:
+
+hashlib
+
+cryptography
+
+You can install them using pip:
+
+```pip install hashlib cryptography```
+
+Usage
+To use this project, you can import the encryption.py file into your Python project and use the functions provided.
+
+```Hash Functions```
+
+This project provides the following hash functions:
+
+SHA-256
+
+SHA-384
+
+SHA-512
+
+To use a hash function, simply call the hash_data function and pass in the data you want to hash and the hash function you want to use:
+
+```python
+import encryption
+
+data = "Hello, World!"
+hashed_data = encryption.hash_data(data, "sha256")
+print(hashed_data)
+
+```
+
+# ```Encryption Algorithms```
+
+This project provides the following encryption algorithms:
+
+AES-128
+
+AES-192
+
+AES-256
+
+To encrypt data, call the encrypt_data function and pass in the data you want to encrypt, the encryption key, and the encryption algorithm you want to use:
+
+```python
+import encryption
+
+data = "Hello, World!"
+key = "my_secret_key"
+encrypted_data = encryption.encrypt_data(data, key, "aes256")
+print(encrypted_data)
+
+```
+
+To decrypt data, call the decrypt_data function and pass in the encrypted data, the encryption key, and the encryption algorithm you used to encrypt the data:
+
+
+```python
+import encryption
+
+encrypted_data = "encrypted data"
+key = "my_secret_key"
+decrypted_data = encryption.decrypt_data(encrypted_data, key, "aes256")
+print(decrypted_data)
+
+```
+
+
+
+
+
+
+
 
 
 
