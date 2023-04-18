@@ -197,8 +197,13 @@ Contributions are welcome! If you have a new example to add or want to improve a
 
 # ```#5 Currency Converter```
 
-A command-line tool that converts between different currencies, using exchange rates fetched from an API. Users can input an amount in one currency, and the program converts it to another currency based on the current exchange rate.
-This Python program allows you to convert a given amount from one currency to another using the ```apilayer.net``` API. The program prompts the user to enter the base currency, target currency, and amount to convert. It then sends a ```request``` to the API to get the exchange rate between the two currencies and uses it to calculate the converted amount. The result is then printed on the console.
+A command-line tool that converts between different currencies, using exchange rates fetched from an API. 
+
+Users can input an amount in one currency, and the program converts it to another currency based on the current exchange rate.
+
+This Python program allows you to convert a given amount from one currency to another using the ```apilayer.net``` API. 
+
+The program prompts the user to enter the base currency, target currency, and amount to convert. It then sends a ```request``` to the API to get the exchange rate between the two currencies and uses it to calculate the converted amount. The result is then printed on the console.
 
 To use this program, you will need an ```API key``` from apilayer.net. Once you have obtained the key, replace the "Your API Key Here" placeholder in the code with your actual key.
 
@@ -244,3 +249,16 @@ print(check_password_strength("StrongPass123!")) # Very Strong
 
 # ```#7 To-do List```
 A command-line tool that allows users to manage a todo list, including adding, deleting, and updating tasks. Users can input tasks and deadlines, and the program displays the tasks in a user-friendly format. The todo list is stored in a database or file for persistence.
+
+The code provided implements a command-line program that manages a to-do list. The program allows the user to add, remove, display, mark as completed, and sort tasks in the list.
+
+The main() function is the entry point of the program and presents the user with a menu of options to choose from. The function uses a while loop to keep the program running until the user chooses to quit.
+
+The add_task() function prompts the user to enter a new task and adds it to the tasks list. The remove_task() function prompts the user to enter a task to remove and removes it from the tasks list if it exists. The display_tasks() function displays the current list of tasks to the user. The complete_task() function prompts the user to enter a task to mark as completed and updates the corresponding task string with a checkbox. The sort_tasks() function sorts the tasks list in ascending order.
+
+To run the program, simply run the script in a terminal or command prompt window. The program will display the main menu and prompt the user to choose an option. The user can enter a number corresponding to the desired option and the program will execute the corresponding function. The program will continue to display the main menu until the user chooses to quit by entering option 6.
+
+
+if you have any query please feel free to contact me or pull request
+
+Thank you and Happy Coding!!
