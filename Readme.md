@@ -196,10 +196,51 @@ To run the examples, simply run the Python scripts provided in the repository. E
 Contributions are welcome! If you have a new example to add or want to improve an existing one, please open a pull request.
 
 # ```#5 Currency Converter```
+
 A command-line tool that converts between different currencies, using exchange rates fetched from an API. Users can input an amount in one currency, and the program converts it to another currency based on the current exchange rate.
+This Python program allows you to convert a given amount from one currency to another using the ```apilayer.net``` API. The program prompts the user to enter the base currency, target currency, and amount to convert. It then sends a ```request``` to the API to get the exchange rate between the two currencies and uses it to calculate the converted amount. The result is then printed on the console.
+
+To use this program, you will need an ```API key``` from apilayer.net. Once you have obtained the key, replace the "Your API Key Here" placeholder in the code with your actual key.
+
+
 
 # ```#6 Password Strength Checker```
 A command-line tool that checks the strength of a password and provides feedback on how to make it stronger. Users can input a password, and the program evaluates its strength based on factors such as length, complexity, and usage of common patterns.
+
+This is a Python program that checks the strength of a given password based on a set of criteria. The program calculates a score for the given password and returns the strength level based on that score. The strength levels are: Very Weak, Weak, Moderate, Strong, and Very Strong.
+
+Criteria Used for Password Strength Calculation
+
+➡ Length of the password
+
+➡ Presence of uppercase letters
+
+➡ Presence of lowercase letters
+
+➡ Presence of digits
+
+➡ Presence of special characters
+
+##```How to Use```
+
+Clone this repository or download the Password Strength Checker.py file.
+
+Open the file in your Python editor.
+
+Run the program.
+
+Enter the password you want to check the strength for.
+
+The program will return the strength level of the given password.
+
+```python
+print(check_password_strength("password")) # Very Weak
+print(check_password_strength("WeakPassword")) # Weak
+print(check_password_strength("Password123")) # Moderate
+print(check_password_strength("StrongPass123!")) # Very Strong
+
+```
+
 
 # ```#7 To-do List```
 A command-line tool that allows users to manage a todo list, including adding, deleting, and updating tasks. Users can input tasks and deadlines, and the program displays the tasks in a user-friendly format. The todo list is stored in a database or file for persistence.
